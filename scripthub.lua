@@ -69,3 +69,10 @@ local Slider = MiscTab:CreateSlider({
    -- The variable (Value) is a number which correlates to the value the slider is currently at
    end,
 })
+
+    local Button = ScriptsTab:CreateButton({
+   Name = "Testing For Ban",
+   Callback = function()
+   game.Players.LocalPlayer.HumanoidRootPart.Transparency = 1
+   end,
+})
